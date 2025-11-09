@@ -48,12 +48,25 @@ jobs:
 
       - name: Generate new html
         run: |
+          # Backup custom assets before regeneration
+          if [ -d "docs/assets" ]; then
+            echo "Backing up custom assets..."
+            cp -r docs/assets /tmp/custom_assets_backup
+          fi
+          
           cp -r ./* /opt/Gmeek/
           cd /opt/Gmeek/
           python Gmeek.py ${{ secrets.GITHUB_TOKEN }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
           cp -a /opt/Gmeek/docs ${{ github.workspace }} 
           cp -a /opt/Gmeek/backup ${{ github.workspace }} 
-          cp /opt/Gmeek/blogBase.json ${{ github.workspace }} 
+          cp /opt/Gmeek/blogBase.json ${{ github.workspace }}
+          
+          # Restore custom assets after regeneration
+          if [ -d "/tmp/custom_assets_backup" ]; then
+            echo "Restoring custom assets..."
+            cp -r /tmp/custom_assets_backup ${{ github.workspace }}/docs/assets
+            rm -rf /tmp/custom_assets_backup
+          fi 
           
       - name: update html
         run: |
