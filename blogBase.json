@@ -1,1 +1,114 @@
-{"singlePage": [], "startSite": "", "filingNum": "", "onePageListNum": 15, "commentLabelColor": "#006b75", "yearColorList": ["#bc4c00", "#0969da", "#1f883d", "#A333D0"], "i18n": "CN", "themeMode": "manual", "dayTheme": "light", "nightTheme": "dark", "urlMode": "pinyin", "script": "", "style": "", "head": "", "indexScript": "", "indexStyle": "", "bottomText": "", "showPostSource": 1, "iconList": {}, "UTC": 8, "rssSplit": "sentence", "exlink": {}, "needComment": 1, "allHead": "", "title": "Blog Title", "subTitle": "Blog description", "avatarUrl": "https://github.githubassets.com/favicons/favicon.svg", "GMEEK_VERSION": "last", "postListJson": {"P1": {"htmlDir": "docs/post/5555.html", "labels": ["documentation"], "postTitle": "5555", "postUrl": "post/5555.html", "postSourceUrl": "https://github.com/dujianhua200/dujianhua200.github.io/issues/1", "commentNum": 0, "wordCount": 6, "description": "2222kl\u3002", "top": 0, "createdAt": 1762612296, "style": "", "script": "", "head": "", "ogImage": "https://github.githubassets.com/favicons/favicon.svg", "createdDate": "2025-11-08", "dateLabelColor": "#0969da"}, "P2": {"htmlDir": "docs/post/xiao-xin-dian.html", "labels": ["documentation"], "postTitle": "\u5c0f\u5fc3\u70b9", "postUrl": "post/xiao-xin-dian.html", "postSourceUrl": "https://github.com/dujianhua200/dujianhua200.github.io/issues/2", "commentNum": 0, "wordCount": 5, "description": "\u53d1\u53d1\u53d1\u975e\u5e38\u3002", "top": 0, "createdAt": 1762612736, "style": "", "script": "", "head": "", "ogImage": "https://github.githubassets.com/favicons/favicon.svg", "createdDate": "2025-11-08", "dateLabelColor": "#0969da"}}, "singeListJson": {}, "labelColorDict": {"bug": "#d73a4a", "documentation": "#0075ca", "duplicate": "#cfd3d7", "enhancement": "#a2eeef", "good first issue": "#7057ff", "help wanted": "#008672", "invalid": "#e4e669", "question": "#d876e3", "wontfix": "#ffffff"}, "displayTitle": "Blog Title", "faviconUrl": "https://github.githubassets.com/favicons/favicon.svg", "ogImage": "https://github.githubassets.com/favicons/favicon.svg", "primerCSS": "<link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />", "homeUrl": "https://dujianhua200.github.io", "prevUrl": "disabled", "nextUrl": "disabled"}
+{
+  "singlePage": [],
+  "startSite": "2024-01-01",
+  "filingNum": "",
+  "onePageListNum": 15,
+  "commentLabelColor": "#006b75",
+  "yearColorList": [
+    "#bc4c00",
+    "#0969da",
+    "#1f883d",
+    "#A333D0"
+  ],
+  "i18n": "CN",
+  "themeMode": "manual",
+  "dayTheme": "light",
+  "nightTheme": "dark",
+  "urlMode": "pinyin",
+  "script": "",
+  "style": "",
+  "head": "",
+  "indexScript": "",
+  "indexStyle": "",
+  "bottomText": "",
+  "showPostSource": 1,
+  "iconList": {},
+  "UTC": 8,
+  "rssSplit": "sentence",
+  "exlink": {},
+  "needComment": 1,
+  "allHead": "",
+  "title": "Blog Title",
+  "subTitle": "Blog description",
+  "avatarUrl": "https://github.githubassets.com/favicons/favicon.svg",
+  "GMEEK_VERSION": "last",
+  "postListJson": {
+    "P1": {
+      "htmlDir": "docs/post/5555.html",
+      "labels": [
+        "documentation"
+      ],
+      "postTitle": "5555",
+      "postUrl": "post/5555.html",
+      "postSourceUrl": "https://github.com/dujianhua200/dujianhua200.github.io/issues/1",
+      "commentNum": 0,
+      "wordCount": 6,
+      "description": "2222kl。",
+      "top": 0,
+      "createdAt": 1762612296,
+      "style": "",
+      "script": "",
+      "head": "",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "createdDate": "2025-11-08",
+      "dateLabelColor": "#0969da"
+    },
+    "P2": {
+      "htmlDir": "docs/post/xiao-xin-dian.html",
+      "labels": [
+        "documentation"
+      ],
+      "postTitle": "小心点",
+      "postUrl": "post/xiao-xin-dian.html",
+      "postSourceUrl": "https://github.com/dujianhua200/dujianhua200.github.io/issues/2",
+      "commentNum": 0,
+      "wordCount": 5,
+      "description": "发发发非常。",
+      "top": 0,
+      "createdAt": 1762612736,
+      "style": "",
+      "script": "",
+      "head": "",
+      "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+      "createdDate": "2025-11-08",
+      "dateLabelColor": "#0969da"
+    }
+  },
+  "singeListJson": {},
+  "labelColorDict": {
+    "bug": "#d73a4a",
+    "documentation": "#0075ca",
+    "duplicate": "#cfd3d7",
+    "enhancement": "#a2eeef",
+    "good first issue": "#7057ff",
+    "help wanted": "#008672",
+    "invalid": "#e4e669",
+    "question": "#d876e3",
+    "wontfix": "#ffffff"
+  },
+  "displayTitle": "Blog Title",
+  "faviconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+  "ogImage": "https://github.githubassets.com/favicons/favicon.svg",
+  "primerCSS": "<link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />",
+  "homeUrl": "https://dujianhua200.github.io",
+  "prevUrl": "disabled",
+  "nextUrl": "disabled",
+  "categoryMapping": {
+    "documentation": "Guides"
+  },
+  "categories": {
+    "Guides": {
+      "color": "#1f883d",
+      "description": "Reference material, release notes, and how-to style documentation."
+    }
+  },
+  "defaultCategory": {
+    "name": "Uncategorized",
+    "color": "#6e7781"
+  },
+  "analytics": {
+    "provider": "busuanzi",
+    "enabled": 1,
+    "privacyNotice": "Anonymous page view counts are provided by the Busuanzi service."
+  }
+}
