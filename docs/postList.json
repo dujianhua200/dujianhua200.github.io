@@ -1,1 +1,68 @@
-{"P2": {"labels": ["documentation"], "postTitle": "\u5c0f\u5fc3\u70b9", "postUrl": "post/xiao-xin-dian.html", "createdDate": "2025-11-08", "dateLabelColor": "#0969da"}, "P1": {"labels": ["documentation"], "postTitle": "5555", "postUrl": "post/5555.html", "createdDate": "2025-11-08", "dateLabelColor": "#0969da"}, "labelColorDict": {"bug": "#d73a4a", "documentation": "#0075ca", "duplicate": "#cfd3d7", "enhancement": "#a2eeef", "good first issue": "#7057ff", "help wanted": "#008672", "invalid": "#e4e669", "question": "#d876e3", "wontfix": "#ffffff"}}
+{
+  "meta": {
+    "tagColors": {
+      "bug": "#d73a4a",
+      "documentation": "#0075ca",
+      "duplicate": "#cfd3d7",
+      "enhancement": "#a2eeef",
+      "good first issue": "#7057ff",
+      "help wanted": "#008672",
+      "invalid": "#e4e669",
+      "question": "#d876e3",
+      "wontfix": "#ffffff"
+    },
+    "categoryMapping": {
+      "documentation": "Guides"
+    },
+    "categories": {
+      "Guides": {
+        "color": "#1f883d",
+        "description": "Reference material, release notes, and how-to style documentation."
+      }
+    },
+    "site": {
+      "startDate": "2024-01-01",
+      "analytics": {
+        "provider": "busuanzi",
+        "enabled": true,
+        "privacyNotice": "Anonymous page view counts are provided by the Busuanzi service."
+      }
+    },
+    "defaultCategory": {
+      "name": "Uncategorized",
+      "color": "#6e7781"
+    }
+  },
+  "posts": [
+    {
+      "id": "P2",
+      "title": "小心点",
+      "description": "发发发非常。",
+      "excerpt": "发发发非常。",
+      "url": "post/xiao-xin-dian.html",
+      "createdAt": 1762612736,
+      "createdDate": "2025-11-08",
+      "dateLabelColor": "#0969da",
+      "labels": [
+        "documentation"
+      ],
+      "wordCount": 5,
+      "viewCount": 0
+    },
+    {
+      "id": "P1",
+      "title": "5555",
+      "description": "2222kl。",
+      "excerpt": "2222kl。",
+      "url": "post/5555.html",
+      "createdAt": 1762612296,
+      "createdDate": "2025-11-08",
+      "dateLabelColor": "#0969da",
+      "labels": [
+        "documentation"
+      ],
+      "wordCount": 6,
+      "viewCount": 0
+    }
+  ]
+}
