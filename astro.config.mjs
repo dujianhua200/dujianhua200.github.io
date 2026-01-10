@@ -34,7 +34,7 @@ import rehypeFigure from "./src/plugins/rehype-figure.mjs";
 export default defineConfig({
 	site: 'https://dujianhua200.github.io',
 
-	base: "/dujianhua200",
+	base: "/",
 	trailingSlash: "always",
 	integrations: [
 		tailwind({
