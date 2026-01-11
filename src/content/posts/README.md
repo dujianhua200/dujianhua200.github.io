@@ -1,6 +1,6 @@
 ---
 title: Firefly 代码块示例
-<date><time>
+published: 2026-01-11
 pinned: false
 description: 这个是一个通过 Cloudflare Workers 搭建，自动化批量替换生成优选线路。
 tags: [Markdown, Firefly]
