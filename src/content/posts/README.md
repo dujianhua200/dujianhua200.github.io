@@ -9,7 +9,6 @@ draft: false
 image: ./images/firefly3.webp
 ---
 # 🚀 优选订阅生成器 WorkerVless2sub
-![sub](./sub.png)
 这个是一个通过 Cloudflare Workers 搭建，自动化批量替换生成优选线路 VMess / VLESS / Trojan 节点的 **优选订阅生成器** [[实现原理]](https://www.youtube.com/watch?v=p-KhFJAC4WQ&t=70s)
 
 > [!WARNING]
