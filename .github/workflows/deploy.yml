@@ -17,16 +17,17 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v5
         with:
-          fetch-depth: 0  # ❶ 新增：解决 Astro 读取 git 信息（如文章日期）失败的问题
+          fetch-depth: 0  # 解决 Astro 读取 git 信息失败的问题
       - name: Install, build, and upload your site
         uses: withastro/action@v5
-        with:  # ❷ 恢复 with 配置块（你之前注释掉了，导致参数不生效）
+        with:
           path: . 
           node-version: 20 
-          package-manager: pnpm@latest  # ❸ 指定 pnpm（匹配你项目的包管理器）
+          # 关键修改：移除 pnpm@latest，让 Action 自动读取 package.json 中的版本
+          # 避免版本冲突错误
           build-cmd: pnpm run build 
         env:
-          ASTRO_SITE: https://dujianhua200.github.io  # ❹ 新增：确保 Astro 正确识别站点地址
+          ASTRO_SITE: https://dujianhua200.github.io  # 确保 Astro 识别站点地址
 
   deploy:
     needs: build
@@ -38,5 +39,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        # ❺ 移除错误配置：actions/deploy-pages 不支持 publish_dir/force_orphan，这些参数是 peaceiris/actions-gh-pages 的
-        # 正确做法：withastro/action 会自动处理构建产物上传，deploy-pages 只需默认配置即可
+        # 保持默认配置，不添加多余参数
